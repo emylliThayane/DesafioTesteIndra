@@ -7,7 +7,7 @@ const perfil = require('../fixtures/perfil.json')
 context('Funcionalidade Login', () => {
     
     beforeEach(() => {
-        cy.visit('https://opensource-demo.orangehrmlive.com/web/index.php/auth/login')
+        cy.visit('web/index.php/auth/login')
 
     });
 

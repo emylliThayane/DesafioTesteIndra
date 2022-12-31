@@ -8,11 +8,15 @@
     "cy:open": "cypress open",
     "cy:run": "cypress run"
   },
-
   "keywords": [],
   "author": "Emylli Thayane",
   "license": "ISC",
   "devDependencies": {
-    "cypress": "^12.1.0"
+    "cypress": "^10.10.0"
+  },
+  "dependencies": {
+    "cypress-template-fixtures": "^1.0.3",
+    "Faker": "^0.7.2",
+    "faker-br": "^0.4.1"
   }
 }

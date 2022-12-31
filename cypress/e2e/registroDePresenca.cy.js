@@ -48,7 +48,7 @@ describe('Funcionalidade Presenca', () => {
    
     });
 
-    it.only('Deve apresentar mensagem de erro por falta de preenchimento da data', () => {
+    it('Deve apresentar mensagem de erro por falta de preenchimento da data', () => {
 
         let nome = faker.name.firstName()
         let sobrenome = faker.name.lastName()
